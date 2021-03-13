@@ -15,6 +15,13 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
+  - id: www-mustafaali-net
+    name: www.mustafaali.net
+    description: 'Personal website'
+    url: 'https://www.mustafaali.net'
+    method: GET
+    expectStatus: 200
+    
   - id: workers-cloudflare-com # unique identifier
     name: workers.cloudflare.com
     description: 'You write code. They handle the rest.' # default=empty
