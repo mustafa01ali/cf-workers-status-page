@@ -55,6 +55,7 @@ export async function notifySlack(monitor, operational) {
                 } ${monitor.url}\` - :eyes: <${
                   config.settings.url
                 }|Status Page>`,
+                icon_emoji: ':cheese_wedge:',
               },
             ],
           },
