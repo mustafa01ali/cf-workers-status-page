@@ -21,3 +21,10 @@ monitors:
     url: 'https://www.mustafaali.net'
     method: GET
     expectStatus: 200
+
+  - id: www-status-mustafaali-net
+    name: status.mustafaali.net
+    description: 'Status Page'
+    url: 'https://status.mustafaali.net'
+    method: GET
+    expectStatus: 200
